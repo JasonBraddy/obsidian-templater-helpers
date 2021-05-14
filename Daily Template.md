@@ -1,11 +1,11 @@
-# {{tp_date}}
-{{datenav}}
+# <% tp.date.now() %>
+<% tp.user.datenav() %>
 
 ## Get Done Today:
-{{incomplete_todos}}
+<% tp.user.carryover_todos() %>
 
 ## Capture:
 
 ## Ideas:
 
-#review 
+#review
